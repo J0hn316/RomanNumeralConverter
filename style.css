@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.converter-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#number {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+#convert-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#output {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
